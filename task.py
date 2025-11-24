@@ -13,7 +13,6 @@ class Task:
 
     @classmethod
     def from_dict(cls, data: dict):
-        # crea un Task a partir de un dict
         return cls(
             data["name"],
             data["priority"],
